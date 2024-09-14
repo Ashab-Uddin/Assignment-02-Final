@@ -96,3 +96,40 @@ a {
   font: var(--semi-bold);
   border: 1px solid var(--clr-red);
 }
+
+/* navbar-related-styles-Start-here */
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+  }
+  .company-name{
+    width: 10%;
+    font-size: 1.9rem;
+    font-style: italic;
+    font-weight: var(--extra-bold-font);
+    color: var(--clr-red);
+  }
+  .navbar ul {
+    width: 40%;
+    justify-content: space-between;
+  }
+  .ul-cotainaer{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 0.625rem;
+    border-radius: 2.4375rem;
+  }
+  #btn-home {
+    border-radius: 2rem;
+    background: var(--clr-red);
+    padding: 0.5rem 1.25rem;
+  }
+  .navbar > ul > li > a {
+    color: var(--clr-white-1);
+    font-size: 1rem;
+    font-weight: var(--semi-bold-font);
+  }
+  .navbar-icon {
+    display: none;
+  }
+  /* navbar-related-styles-End-here */

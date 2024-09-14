@@ -1,4 +1,14 @@
 @media screen and (max-width:576px){
 
-    
+    /* Navbar-related styles Start Here */
+    .navbar-icon {
+        display: block;
+        color: var(--clr-white-1);
+        font-size: 1.9rem;
+        cursor: pointer;
+      }
+      .navbar ul {
+        display: none;
+      }
+      /* Navbar-related styles End Here */
 }
