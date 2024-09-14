@@ -86,4 +86,16 @@
                 width: 100%;
               }
               /* Run Section Related Styles End Here */
+
+                    /* BMI cals Short Section Related Styles Start Here--------------------> */
+       .BMI-short {
+        margin-top: 1.75rem;
+      }
+      .BMI-cals-content {
+        width: 100%;
+      }
+      .BMI-cals-content h1 {
+        font-size: 2rem;
+      }
+       /* BMI cals Short Section Related Styles End Here--------------------> */
 }

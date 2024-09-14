@@ -316,3 +316,22 @@ a {
         border-radius: 1.13rem;
       }
       /* Run Section Related Styles End Here-------------------------------> */
+
+        /* BMI cals Short Section Related Styles Start Here--------------------> */
+  .BMI-short {
+    margin-top: 4.875rem;
+  }
+  .BMI-cals-content {
+    width: 50%;
+    margin-inline: auto;
+  }
+  .BMI-short h1 {
+    color: var(--clr-white-1);
+    font-size: 3rem;
+    font-weight: var(--black-font);
+  }
+  .BMI-short p {
+    color: var(--clr-gray-1);
+    font-size: 0.875rem;
+  }
+  /* BMI cals Short Section Related Styles End Here---------------------------> */
