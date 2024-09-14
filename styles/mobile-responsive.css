@@ -131,4 +131,14 @@
         grid-template-columns: repeat(1,1fr);
         gap: 2.5rem;
       }
+
+        /* Meet Our Team Related Styles--------------------------> */
+        .meet-team-content {
+            width: 100%;
+          }
+          .meet-our-team-main-container {
+            grid-template-columns: repeat(1, 1fr);
+            padding-top: 2rem;
+          }
+    
 }

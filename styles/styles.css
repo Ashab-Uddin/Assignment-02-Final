@@ -452,3 +452,61 @@ a {
     margin: 0.5rem 0 0.625rem 0;
     margin-bottom: 2rem;
   }
+
+   /*    Meet Our Team Related Styles Start Here-------------------------------> */
+   .our-team-section{
+    margin-top: 5.5rem;
+  }
+  .meet-team-content {
+    width: 57%;
+    margin-inline: auto;
+  }
+  .meet-team-content h1 {
+    color: var(--clr-white-1);
+    font-size: 3rem;
+    font-weight: var(--black-font);
+    text-align: center;
+  }
+  .meet-team-content p {
+    color: var(--clr-gray-1);
+    font-size: 0.875rem;
+    text-align: center;
+  }
+  .meet-our-team-main-container {
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 2.625rem;
+    padding: 3rem 1rem;
+    border-radius: 1.125rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 3rem;
+    place-items: center;
+    justify-content: center;
+  }
+  .meet-team-contaier {
+    position: relative;
+  }
+  .trainer-img {
+    height: 272px;
+  }
+  .trainer-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1.125rem;
+    filter: brightness(90%);
+    object-fit: cover;
+  }
+  .trainer-des {
+    position: absolute;
+    top: 13rem;
+    left: 1.25rem;
+  }
+  .trainer-des h4 {
+    color: var(--clr-white-1);
+    font-size: 1.5rem;
+    font-weight: var(--extra-bold);
+  }
+  .trainer-des p {
+    color: var(--clr-gray-1);
+    font-size: 0.875rem;
+  }
