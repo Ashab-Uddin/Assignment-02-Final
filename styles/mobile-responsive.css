@@ -50,4 +50,18 @@
         top: 15rem;
       }
       /* header related styles End here------------- */
+
+      
+      /* Habit Related Styles Start Here-------------> */
+      .habit-img-container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2.5rem;
+      }
+      .habit-img-content {
+        width: 100%;
+      }
+      .habit-img-content h1 {
+        font-size: 2rem;
+      }
+      /* Habit Related Styles End Here---------------- */
 }
