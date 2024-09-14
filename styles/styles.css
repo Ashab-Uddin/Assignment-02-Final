@@ -335,3 +335,77 @@ a {
     font-size: 0.875rem;
   }
   /* BMI cals Short Section Related Styles End Here---------------------------> */
+
+  /* BMI Calculator Section Related Styles Start Here--------------------------> */
+  .BMI-Calculator-Main-Section {
+    background: rgb(34, 34, 34);
+    margin-top: 5.5rem;
+    padding: 3.25rem 0;
+  }
+  .BMI-Calculator {
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .BMI-Calculator-Chart {
+    width: 30%;
+  }
+  .BMI-Calculator-Chart h3 {
+    color: var(--clr-white-1);
+    font-size: 1.75rem;
+    font-weight: var(--black-font);
+  }
+  .BMI-Calculator-Chart table {
+    border: 0.06rem solid rgb(255 255 255 / 23%);
+    margin-top: 3.25rem;
+    border-collapse: collapse;
+  }
+  .BMI-Calculator-Chart th {
+    color: var(--clr-white-1);
+    font-size: 1rem;
+    font-weight: var(--medium-font);
+    text-align: left;
+    padding: 1rem;
+    border: 0.06rem solid rgb(255 255 255 / 23%);
+  }
+  .BMI-Calculator-Chart td {
+    color: var(--clr-gray-1);
+    font-size: 0.875rem;
+    padding: 0.5rem 1rem;
+    border: 0.06rem solid rgb(255 255 255 / 23%);
+  }
+  .BMI-Calculator-From {
+    width: 60%;
+  }
+  .BMI-Calculator-From h3 {
+    color: var(--clr-white-1);
+    font-size: 1.75rem;
+    font-weight: var(--black-font);
+  }
+  .BMI-Calculator-From p {
+    color: var(--clr-gray-1);
+    font-size: 0.875rem;
+    margin-top: 0.875rem;
+  }
+  .BMI-From {
+    display: grid;
+    grid-template-columns: repeat(2, 48%);
+    gap: 0.75rem;
+    margin: 2.125rem 0;
+  }
+  .BMI-From > input,
+  select {
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+  }
+  .BMI-From input {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+  }
+  .activity-factor{
+    grid-column-start: -3;
+    grid-column-end: -1;
+  }

@@ -98,4 +98,31 @@
         font-size: 2rem;
       }
        /* BMI cals Short Section Related Styles End Here--------------------> */
+
+
+       /* BMI-Calculator-Section-Related-Start-Here-----------------------------> */
+    .BMI-Calculator-Main-Section {
+        margin-top: 2rem;
+        padding-top: 2.125rem;
+      }
+      .BMI-Calculator {
+        flex-direction: column;
+        align-items: center;
+        gap: 2.625rem;
+      }
+      .BMI-Calculator-Chart {
+        width: 100%;
+      }
+      .BMI-Calculator-Chart h3 {
+        font-size: 1rem;
+      }
+      .BMI-Calculator-Chart table {
+        margin-top: 1.45rem;
+      }
+      .BMI-Calculator-From {
+        width: 100%;
+      }
+      .BMI-Calculator-Fromh3 {
+        font-size: 1rem;
+      }
 }
