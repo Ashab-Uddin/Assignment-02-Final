@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400 ;
+    font-style: normal;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    outline: none;
+  }
+/* variables */
+:root {
+  /* font-weight */
+  --medium-font: 500;
+  --semi-bold-font: 600;
+  --bold-font: 700;
+  --extra-bold-font: 800;
+
+  --black-font: 900;
+
+    /* color -related variable Styles */
+
+  /* comola-related color */
+  --clr-red: rgb(230, 83, 60);
+
+  /* white -related color*/
+
+  --clr-white-1: rgb(255, 255, 255);
+  --clr-white-2: rgb(250, 250, 249);
+
+  /* gray -related-colors*/
+
+  --clr-gray-1: rgba(255, 255, 255, 0.5);
+  --clr-gray-2: rgba(255, 255, 255, 0.277);
+  --clr-gray-3: rgba(255, 255, 255, 0.65);
+  --clr-gray-4: rgba(255, 255, 255, 0.1);
+  --clr-gray-5: rgba(48, 48, 48, 0.54);
+  --clr-gray-6: rgba(239, 237, 232, 0.65);
+
+
+  /* black  -related colors*/
+  --clr-black: rgb(34, 34, 34);
+}
+
+/* General related Styles */
+body {
+  background-color:black;
+  font-weight: 400;
+  line-height: 1.5;
+}
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.25;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.section {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+.display-flex {
+  display: flex;
+}
+
+.p-1 {
+  color: var(--clr-gray-1);
+  font-size: 1rem;
+}
+.btn-primary {
+  cursor: pointer;
+  color: var(--clr-white-1);
+  background-color: var(--clr-red);
+  border-radius: 2.63rem;
+  padding: 1rem 2.5rem;
+  font-size: 1rem;
+  font: var(--semi-bold);
+  border: 1px solid var(--clr-red);
+}
+.btn-cart {
+  cursor: pointer;
+  color: var(--clr-white-1);
+  background-color: var(--clr-red);
+  font-size: 1rem;
+  padding: 0.625rem 1rem;
+  font: var(--semi-bold);
+  border: 1px solid var(--clr-red);
+}
