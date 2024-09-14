@@ -125,4 +125,10 @@
       .BMI-Calculator-Fromh3 {
         font-size: 1rem;
       }
+
+       /* Our Platfrom Related Style Here-------------------> */
+       .platfrom-main-container{
+        grid-template-columns: repeat(1,1fr);
+        gap: 2.5rem;
+      }
 }
