@@ -64,4 +64,26 @@
         font-size: 2rem;
       }
       /* Habit Related Styles End Here---------------- */
+
+            /* Run Section Related Styles Start Here ------------->*/
+
+            .run-section {
+                flex-direction: column;
+                align-items: center;
+                padding: 0rem 3rem;
+              }
+              .run-content {
+                width: 100%;
+              }
+              .run-content h1 {
+                font-size: 2rem;
+              }
+              .run-content button {
+                width: 100%;
+                margin: 1rem 0 2rem 0;
+              }
+              .run-image {
+                width: 100%;
+              }
+              /* Run Section Related Styles End Here */
 }
