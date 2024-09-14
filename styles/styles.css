@@ -510,3 +510,56 @@ a {
     color: var(--clr-gray-1);
     font-size: 0.875rem;
   }
+
+   /* footer Related Styles Start Here--------------------------> */
+   .footer {
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 5.5rem;
+    margin-bottom: 0rem;
+  }
+  .footer-main-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 4.125rem;
+    column-gap: 6.25rem;
+  }
+
+  .footer-content-type-one {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .footer-content-type-one h1 {
+    color: var(--clr-red);
+    font-size: 4.38rem;
+    font-weight: var(--extra-bold-font);
+    font-style: italic;
+  }
+  .footer-content-type-one p {
+    color: var(--clr-gray-1);
+    font-size: 0.875rem;
+    margin-top: 1.25rem;
+  }
+  .footer-get-started {
+    color: var(--clr-white-1);
+    font-size: 2rem;
+    font-weight: var(--bold-font);
+    margin-bottom: 2.45rem;
+  }
+  .footer-ul li {
+    margin-bottom: 1.25rem;
+  }
+  .footer-ul > li > a {
+    color: var(--clr-gray-1);
+    font-size: 1.45rem;
+  }
+  hr {
+    margin-top: 5rem;
+    border: 0.125rem solid rgba(255, 255, 255, 0.1);
+  }
+  .footer-des {
+    color: var(--clr-gray-1);
+    font-size: 1.25rem;
+    text-align: center;
+    margin-top: 1.25rem;
+  }
+  

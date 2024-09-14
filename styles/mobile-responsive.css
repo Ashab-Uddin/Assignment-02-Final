@@ -49,7 +49,7 @@
         /* display: none; */
         top: 15rem;
       }
-      /* header related styles End here------------- */
+      /* header related styles End here */
 
       
       /* Habit Related Styles Start Here-------------> */
@@ -63,9 +63,9 @@
       .habit-img-content h1 {
         font-size: 2rem;
       }
-      /* Habit Related Styles End Here---------------- */
+      /* Habit Related Styles End Here*/
 
-            /* Run Section Related Styles Start Here ------------->*/
+            /* Run Section Related Styles Start Here ------------------->*/
 
             .run-section {
                 flex-direction: column;
@@ -97,7 +97,7 @@
       .BMI-cals-content h1 {
         font-size: 2rem;
       }
-       /* BMI cals Short Section Related Styles End Here--------------------> */
+       /* BMI cals Short Section Related Styles End Here*/
 
 
        /* BMI-Calculator-Section-Related-Start-Here-----------------------------> */
@@ -125,14 +125,17 @@
       .BMI-Calculator-Fromh3 {
         font-size: 1rem;
       }
+      /* BMI-Calculator-Section-Related-End-Here */
 
-       /* Our Platfrom Related Style Here-------------------> */
+
+
+       /* Our Platfrom Related Style Here-----------------------------> */
        .platfrom-main-container{
         grid-template-columns: repeat(1,1fr);
         gap: 2.5rem;
       }
 
-        /* Meet Our Team Related Styles--------------------------> */
+        /* Meet Our Team Related Styles--------------------------------> */
         .meet-team-content {
             width: 100%;
           }
@@ -141,4 +144,13 @@
             padding-top: 2rem;
           }
     
+            /* Footer Related Styles Start Here---------------------------> */
+      .footer-main-container {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 2rem;
+      }
+      .footer-content-type-one {
+        grid-column-start: 1;
+        grid-column-end: 2;
+      }
 }
